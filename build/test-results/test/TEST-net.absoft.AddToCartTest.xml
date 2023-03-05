@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.absoft.AddToCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T11:51:57" hostname="NB172" time="0.648">
+<testsuite name="net.absoft.AddToCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T18:33:03" hostname="NB172" time="0.436">
   <properties/>
-  <testcase name="testAddingItemToCart" classname="net.absoft.AddToCartTest" time="0.648"/>
+  <testcase name="testAddingItemToCart" classname="net.absoft.AddToCartTest" time="0.436"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 57527
+  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 62085
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1678017112.977][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Mar 05, 2023 1:51:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1678041179.745][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 05, 2023 8:33:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 05, 2023 1:51:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 05, 2023 8:33:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Mar 05, 2023 1:51:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 05, 2023 8:33:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 110.
-Mar 05, 2023 1:51:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 05, 2023 8:33:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.3.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>

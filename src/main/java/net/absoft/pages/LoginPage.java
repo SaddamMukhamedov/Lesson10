@@ -27,4 +27,5 @@ public class LoginPage extends BaseComponent {
         return new InventoryPage(driver);
     }
 
+
 }
